@@ -1,21 +1,21 @@
 <?php
 
 //Site info *************************
-define('HOST_URL','');
-define('MAIL_ADDRESS','foo@site.com');
+define('HOST_URL','3d.lab.powerninjas.net');
+define('MAIL_ADDRESS','shraderdm@gmail.com');
 
 // SQL database *********************
-define('DB_NAME', ''); //your database name
-define('DB_USER', ''); //your database user
-define('DB_PASSWORD', ''); //your database password
-define('DB_HOST', 'localhost'); //your database host
+define('DB_NAME', '3d'); //your database name
+define('DB_USER', 'webgl'); //your database user
+define('DB_PASSWORD', 'webgl3d'); //your database password
+define('DB_HOST', 'mysql'); //your database host
 
 define('DB_PREFIX', 'lfs_');
 define('DB_REDIS', false ); //use redis database (mostly for sessions), otherwise it will use SQL
 
 //System ****************************
-define('ADMIN_PASS',''); //CHANGE THIS
-define('ADMIN_MAIL',''); //CHANGE THIS
+define('ADMIN_PASS','tripletime'); //CHANGE THIS
+define('ADMIN_MAIL','admin@powerninjas.net'); //CHANGE THIS
 define('GLOBAL_PASS_SALT','pepper salt and other herbs'); //ENTER SOMETHING RANDOM HERE
 define('UNITNAME_SALT','sausages bacon and spam'); //ENTER SOMETHING RANDOM HERE
 
